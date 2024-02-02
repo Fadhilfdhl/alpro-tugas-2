@@ -1,1 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+        // Tipe data primitif
+        // Tipe data numerik
+        byte byteValue = 127; // Byte (8-bit signed integer)
+        short shortValue = 32000; // Short (16-bit signed integer)
+        int intValue = 2147483647; // Integer (32-bit signed integer)
+        long longValue = 9223372036854775807L; // Long (64-bit signed integer)
 
+        float floatValue = 3.14f; // Float (32-bit floating point)
+        double doubleValue = 3.141592653589793; // Double (64-bit floating point)
+
+        // Tipe data karakter
+        char charValue = 'A'; // Character (16-bit Unicode character)
+
+        // Tipe data boolean
+        boolean booleanValue = true; // Boolean (true or false)
+
+        // Menampilkan nilai dari masing-masing tipe data
+        System.out.println("Nilai byte: " + byteValue);
+        System.out.println("Nilai short: " + shortValue);
+        System.out.println("Nilai int: " + intValue);
+        System.out.println("Nilai long: " + longValue);
+        System.out.println("Nilai float: " + floatValue);
+        System.out.println("Nilai double: " + doubleValue);
+        System.out.println("Nilai char: " + charValue);
+        System.out.println("Nilai boolean: " + booleanValue);
+    }
+}
