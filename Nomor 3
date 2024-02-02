@@ -1,1 +1,31 @@
+# Tipe data numerik
+integer_value = 42  # Integer
+float_value = 3.14  # Float
 
+# Tipe data string
+string_value = "Hello, World!"  # String
+
+# Tipe data boolean
+boolean_value = True  # Boolean
+
+# Tipe data list (daftar)
+list_value = [1, 2, 3, 4, 5]  # List
+
+# Tipe data tuple (urutan yang tidak dapat diubah)
+tuple_value = (1, 2, 3, 4, 5)  # Tuple
+
+# Tipe data set (himpaunan yang tidak berurutan dan tidak dapat diubah)
+set_value = {1, 2, 3, 4, 5}  # Set
+
+# Tipe data dictionary (kumpulan pasangan kunci-nilai yang tidak berurutan)
+dictionary_value = {"a": 1, "b": 2, "c": 3}  # Dictionary
+
+# Menampilkan nilai dari masing-masing tipe data
+print("Nilai integer:", integer_value)
+print("Nilai float:", float_value)
+print("Nilai string:", string_value)
+print("Nilai boolean:", boolean_value)
+print("Nilai list:", list_value)
+print("Nilai tuple:", tuple_value)
+print("Nilai set:", set_value)
+print("Nilai dictionary:", dictionary_value)
